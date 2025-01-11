@@ -4,11 +4,14 @@ Projekt został wykonany w kwietniu 2024 roku.
 
 Operacje w kolejności rosnącego priorytetu:
 
-a + b, a - b
-a * b, a / b - wszystkie operacje wykonywane są na liczbach całkowitych, stąd wynik dzielenia zaokrąglany jest w dół
+a + b, a - b, a * b, a / b - wszystkie operacje wykonywane są na liczbach całkowitych, stąd wynik dzielenia zaokrąglany jest w dół
+
 IF(a, b, c) - jeśli a> 0 zwróć b, w przeciwnym razie c
+
 N a - jednoargumentowa negacja, czyli -a
+
 MIN( a1, a2, ... ) , MAX(a1, a2, ...) - funkcje MIN i MAX nie mają ograniczonej liczby parametrów
+
 ( ... ) - nawiasy
 
 
