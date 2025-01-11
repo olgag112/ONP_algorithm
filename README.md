@@ -24,20 +24,16 @@ The use of STL libraries and the string class was prohibited.
 The project was completed in April 2024 as part of the "Algorithms and Data Structures" course.
 
 Operations in increasing order of priority:
-Arithmetic operations:
-a + b, a - b, a * b, a / b
-All operations are performed on integers, so the result of division is rounded down.
 
-Conditional operation:
+
+a + b, a - b, a * b, a / b - All operations are performed on integers, so the result of division is rounded down.
+
 IF(a, b, c) - if a > 0, return b; otherwise, return c.
 
-Negation:
 N a - single-argument negation, equivalent to -a.
 
-Minimum and maximum functions:
 MIN(a1, a2, ...), MAX(a1, a2, ...) - the MIN and MAX functions have no limit on the number of parameters.
 
-Parentheses:
 ( ... ) - parentheses for grouping operations.
 
 -------------
