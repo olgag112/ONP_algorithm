@@ -1,6 +1,6 @@
 Celem projektu było zaimplementowanie kalkulatora działającego na podstawie algorytmu Odwrotnej notacji polskiej. 
 Zabronione było korzystanie z bibliotek stl oraz string.
-Projekt został wykonany w kwietniu 2024 roku.
+Projekt został wykonany w kwietniu 2024 roku w ramach przedmiotu Algorytmy i Struktury Danych.
 
 Operacje w kolejności rosnącego priorytetu:
 
@@ -14,8 +14,35 @@ MIN( a1, a2, ... ) , MAX(a1, a2, ...) - funkcje MIN i MAX nie mają ograniczonej
 
 ( ... ) - nawiasy
 
+-------------
 
-Wejście:
+ENG
+
+The goal of the project was to implement a calculator based on the Reverse Polish Notation (RPN) algorithm.
+The use of STL libraries and the string class was prohibited.
+
+The project was completed in April 2024 as part of the "Algorithms and Data Structures" course.
+
+Operations in increasing order of priority:
+Arithmetic operations:
+a + b, a - b, a * b, a / b
+All operations are performed on integers, so the result of division is rounded down.
+
+Conditional operation:
+IF(a, b, c) - if a > 0, return b; otherwise, return c.
+
+Negation:
+N a - single-argument negation, equivalent to -a.
+
+Minimum and maximum functions:
+MIN(a1, a2, ...), MAX(a1, a2, ...) - the MIN and MAX functions have no limit on the number of parameters.
+
+Parentheses:
+( ... ) - parentheses for grouping operations.
+
+-------------
+
+Wejście/Input:
 
 4
 MIN ( 100 , MAX ( 1 , 34 , 2 ) , 80 ,  MIN ( 66 , 36  , 35 , 77 ) , 50 , 60 ) .
@@ -23,7 +50,7 @@ MIN ( 100 , MAX ( 1 , 34 , 2 ) , 80 ,  MIN ( 66 , 36  , 35 , 77 ) , 50 , 60 ) .
 N 400 + ( 11 - ( 3 * 2 ) ) / 2 + N N 200 .
 IF ( ( 6 + 8 ) , ( 4 / 2 ) , MIN ( 8 , 2 , 1 , 0 , 3 ) ) * 2 * 6 / N ( 3 ) .
 
-Wyjście:
+Wyjście/Output:
 
 100  1  34  2  MAX3  80  66  36  35  77  MIN4  50  60  MIN6
 MAX3 2 34 1 100
